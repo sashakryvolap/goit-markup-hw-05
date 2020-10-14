@@ -669,7 +669,10 @@ img {
   position: relative;
   overflow: hidden;
 }
-.projects-list-item:hover .portfolio-overlay {
+.projects-list-item :hover .portfolio-overlay {
+  transform: translateY(0%);
+}
+.projects-list-item :focus .portfolio-overlay {
   transform: translateY(0%);
 }
 .projects-description {
